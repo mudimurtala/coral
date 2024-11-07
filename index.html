@@ -4,50 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Section-5</title>
-    <style>
-        /* * {
-            outline: 2px solid brown;
-        } */
-
-        html, body {
-            margin: 0; /* Remove default margins */
-            background-color: black;
-        }
-
-        .main-div {
-            background-color: #F4F4F5;
-            width: 100%;
-            height: 500px;
-        }
-
-        .main-text {
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            font-size: x-large;
-            font-weight: bold;
-            text-align: center;
-            padding-top: 20px;
-            margin-top: 10px;
-
-        }
-
-        section {
-            display: flex;
-            justify-content: space-around;
-            margin-top: 30px;
-            width: 100%;
-        }
-
-        .footer {
-            display: flex;
-            justify-content: space-around;
-        }
-
-        @media all and (min-width: 600px) {
-            body {
-                flex: 1 0 0;
-            }
-        }
-    </style>
 </head>
 <body>
     <div class="main-div">
@@ -68,8 +24,20 @@
             <p class="main-text">Or Subscribe To The Newsletter</p>
         </div>
         <footer class="footer">
-            <h6>Email Address...</Address></h6>
-            <h6>SUBMIT</h6>
+            <!-- <h6>Email Address...</Address></h6>
+            <h6>SUBMIT</h6> -->
+            <div class="divfooter">
+                <div>
+                    <label for="email">Email Address...</label>
+                </div>
+                <div>
+                    <input type="email" id="email" name="email">
+                </div>
+            </div>
+            <div class="divfooter">
+                <button>SUBMIT</button>
+            </div>
+            
         </footer>
     </div>
 </body>

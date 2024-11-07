@@ -1,0 +1,60 @@
+* {
+    outline: 2px solid brown;
+}
+
+html, body {
+    margin: 0; /* Remove default margins */
+    background-color: black;
+}
+
+.main-div {
+    background-color: #F4F4F5;
+    width: 100%;
+    height: 500px;
+}
+
+.main-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 10px;
+
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media all and (min-width: 600px) {
+    body {
+        flex: 1 0 0;
+    }
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 0;
+    border-bottom: 2px solid #000;
+    width: 200%;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 0;
+    border-bottom: 2px solid #000;
+    width: 120%;
+}
